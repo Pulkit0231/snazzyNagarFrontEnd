@@ -1,24 +1,16 @@
 <<<<<<< HEAD
 # snazzyNagarFrontEnd
 =======
-# Welcome to Thapa Technical React Ecommerce Webstie Series 
 
-## Follow the 3 Steps and your good to go. 
+**Project Demo Link**
 
-1: Clone the Project 
+You can check out the live demo of this project by following the link below:
 
-2: simply run the command 
-   ### `npm install` 
-   First to install all the packages
-   
-3: run the project using 
-   ### `npm start`
-   
-   ---
+https://snazzynagar.netlify.app/
 
-# Getting Started with Create React App 
+Feel free to explore the project and provide feedback. If you have any questions or encounter any issues, please don't hesitate to open an issue on this repository.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Thank you for your interest in our project!
 
 ## Available Scripts
 
@@ -57,33 +49,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 1cbe117 (first commit)
