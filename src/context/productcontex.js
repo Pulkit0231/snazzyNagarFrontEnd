@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useReducer } from "react";
+import { createContext, useCallback, useContext, useEffect, useReducer } from "react";
 import axios from "axios";
 import reducer from "../reducer/productReducer";
 
@@ -42,7 +42,7 @@ const AppProvider = ({ children }) => {
 
   // my 2nd api call for single product
 
-  const getSingleProduct = async (url) => {
+  const getSingleProduct = useCallback(async (url) => {
     dispatch({ type: "SET_SINGLE_LOADING" });
     try {
       const res = await axios.get(url);
@@ -51,7 +51,7 @@ const AppProvider = ({ children }) => {
     } catch (error) {
       dispatch({ type: "SET_SINGLE_ERROR" });
     }
-  };
+  }, []);
 
   useEffect(() => {
     getProducts(API);
