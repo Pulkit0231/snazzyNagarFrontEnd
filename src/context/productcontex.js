@@ -55,6 +55,11 @@ const AppProvider = ({ children }) => {
 
   useEffect(() => {
     getProducts(API);
+
+    const interval = setInterval(() => {
+      getProducts(API);
+    }, 60000)
+    return () => clearInterval(interval);
   }, []);
 
   return (
