@@ -167,7 +167,7 @@ const Wrapper = styled.section`
 
   .filter-color-style {
     display: flex;
-    justify-content: center;
+    justify-content: left;
   }
 
   .color-all--style {

@@ -14,13 +14,12 @@ const HeroSection = ({ myData }) => {
             <h1> {name} </h1>
             <p>
               SnazzyNagar is a clothing brand that offers a wide range of stylish and high-quality clothing for men, women, and children. Our collection includes everything from classic t-shirts and jeans to formal shirts and dresses, all designed with the latest fashion trends in mind.
-              <p>At SnazzyNagar, we believe that everyone deserves to look and feel their best, which is why we use only the finest materials and construction techniques to create our clothing.
-              </p>
-              <p>
-                Our products are made to last, so you can enjoy them for years to come.
-                Whether you’re looking for something casual for everyday wear or something more formal for a special occasion, SnazzyNagar has got you covered. Browse our collection today and discover the perfect outfit for any occasion.
-              </p>
-
+            </p>
+            <p>At SnazzyNagar, we believe that everyone deserves to look and feel their best, which is why we use only the finest materials and construction techniques to create our clothing.
+            </p>
+            <p>
+              Our products are made to last, so you can enjoy them for years to come.
+              Whether you’re looking for something casual for everyday wear or something more formal for a special occasion, SnazzyNagar has got you covered. Browse our collection today and discover the perfect outfit for any occasion.
             </p>
             <NavLink to="/products">
               <Button>shop now</Button>
@@ -33,6 +32,7 @@ const HeroSection = ({ myData }) => {
             </figure>
           </div>
         </div>
+
       </div>
     </Wrapper>
   );
@@ -86,7 +86,7 @@ const Wrapper = styled.section`
     height: auto;
   }
 
-  @media (max-width: ${({ theme }) => theme.media.mobile}) {
+  @media (max-width: ${({ theme }) => theme.media.mobile} ) {
     .grid {
       gap: 10rem;
     }

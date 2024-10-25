@@ -26,5 +26,11 @@ const MainHeader = styled.header`
   .logo {
     height: 5rem;
   }
+  
+  @media (max-width: 418px) {
+    h1 {
+      font-size: 4rem;
+    }
+  }
 `;
 export default Header;
