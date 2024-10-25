@@ -34,8 +34,9 @@ const SingleProduct = () => {
 
   useEffect(() => {
     getSingleProduct(`https://snazzynagarbackend.onrender.com/api/products/${id}`);
-  }, []);
+  }, [getSingleProduct, id]);
 
+  console.log(getSingleProduct)
 
   if (isSingleLoading) {
     return <div className="page_loading">Loading.....</div>;
