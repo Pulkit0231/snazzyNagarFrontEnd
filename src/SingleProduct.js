@@ -22,7 +22,6 @@ const SingleProduct = () => {
 
 
   const {
-    _id: alaad,
     name,
     price,
     description,
