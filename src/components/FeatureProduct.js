@@ -1,12 +1,13 @@
 import { useProductContext } from "../context/productcontex";
 import styled from "styled-components";
+import CircularProgress from '@mui/material/CircularProgress';
 import Product from "./Product";
 
 const FeatureProduct = () => {
   const { isLoading, featureProducts } = useProductContext();
 
   if (isLoading) {
-    return <div> ......Loading </div>;
+    return <div> <CircularProgress /></div>;
   }
 
   return (

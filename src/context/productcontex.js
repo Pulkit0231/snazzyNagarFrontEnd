@@ -4,7 +4,7 @@ import reducer from "../reducer/productReducer";
 
 const AppContext = createContext();
 
-const API = "https://snazzynagarbackend.onrender.com/api/products/";
+const API = "https://snazzy-nagarbackend.vercel.app/api/products/";
 // const Product = () => {
 //   const [products, setProducts] = useState([])
 
@@ -56,10 +56,6 @@ const AppProvider = ({ children }) => {
   useEffect(() => {
     getProducts(API);
 
-    const interval = setInterval(() => {
-      getProducts(API);
-    }, 60000)
-    return () => clearInterval(interval);
   }, []);
 
   return (

@@ -10,6 +10,7 @@ import { MdSecurity } from "react-icons/md";
 import { TbTruckDelivery, TbReplace } from "react-icons/tb";
 import Star from "./components/Star";
 import AddToCart from "./components/AddToCart";
+import CircularProgress from '@mui/material/CircularProgress';
 
 
 // const API = `/api/products/`;
@@ -33,12 +34,12 @@ const SingleProduct = () => {
   } = singleProduct;
 
   useEffect(() => {
-    getSingleProduct(`https://snazzynagarbackend.onrender.com/api/products/${id}`);
+    getSingleProduct(`https://snazzy-nagarbackend.vercel.app/api/products/${id}`);
   }, [getSingleProduct, id]);
 
 
   if (isSingleLoading) {
-    return <div className="page_loading">Loading.....</div>;
+    return <div className="page_loading"><CircularProgress /></div>;
   }
 
   return (
